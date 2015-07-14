@@ -1,4 +1,18 @@
 Rails.application.routes.draw do
+  get 'categories/new'
+
+  get 'categories/show'
+
+  get 'categories/index'
+
+  get 'categories/edit'
+
+  get 'categories/update'
+
+  get 'categories/destroy'
+
+  get 'categories/create'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
